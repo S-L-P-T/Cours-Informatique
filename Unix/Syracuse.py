@@ -1,5 +1,3 @@
-# hello
-
 def syracuse(n):
     a = 0
     b = n
