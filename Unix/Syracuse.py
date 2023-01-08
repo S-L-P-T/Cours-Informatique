@@ -72,4 +72,4 @@ def syracuse(n):
         print("Durée de vol minimale en altitude = ",dureealtitudemin)
         print("Durée de vol moyen en altitude = ",dureealtitudemoy)
 
-syracuse(Changer)dzqdzq
+syracuse(Changer)
