@@ -14,6 +14,7 @@ def syracuse(n):
     elif n <= 0:
         print("non")
     else:
+        print("n Un")
         print(a," ",n)
         while n != 1:
             if (n % 2) == 0:
@@ -71,4 +72,4 @@ def syracuse(n):
         print("Durée de vol minimale en altitude = ",dureealtitudemin)
         print("Durée de vol moyen en altitude = ",dureealtitudemoy)
 
-syracuse(11)
+syracuse(Changer)
