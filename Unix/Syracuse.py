@@ -59,17 +59,17 @@ def syracuse(n):
                         nbduree = nbduree + 1
                     d = 0
 
-        altimoy = altimoy//a
-        dureealtitudemoy = dureealtitudemoy//nbduree
+            altimoy = altimoy//a
+            dureealtitudemoy = dureealtitudemoy//nbduree
 
-        print("Durée de vol maximale = ",a)
-        print("Durée de vol minimale = ",a)
-        print("Durée de vol moyen = ",a//a)
-        print("Altitude maximale = ",altimax)
-        print("Altitude minimale = ",altimin)
-        print("Altitude moyenne = ",altimoy)
-        print("Durée de vol maximale en altitude = ",dureealtitudemax)
-        print("Durée de vol minimale en altitude = ",dureealtitudemin)
-        print("Durée de vol moyen en altitude = ",dureealtitudemoy)
+            print("Durée de vol maximale = ",a)
+            print("Durée de vol minimale = ",a)
+            print("Durée de vol moyen = ",(a+a)/2)
+            print("Altitude maximale = ",altimax)
+            print("Altitude minimale = ",altimin)
+            print("Altitude moyenne = ",altimoy)
+            print("Durée de vol maximale en altitude = ",dureealtitudemax)
+            print("Durée de vol minimale en altitude = ",dureealtitudemin)
+            print("Durée de vol moyen en altitude = ",dureealtitudemoy)
 
 syracuse(Changer)
