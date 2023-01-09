@@ -75,6 +75,7 @@ def syracuse(n):
         # print("Durée de vol minimale en altitude = ",dureealtitudemin)
         # print("Durée de vol moyen en altitude = ",dureealtitudemoy)
 
-
-for g in range(Changer):
+g=AChanger
+while g!=Changer:
     syracuse(g)
+    g+=1

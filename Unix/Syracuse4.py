@@ -63,6 +63,7 @@ def syracuse(n):
 
         print(g," ",a)
 
-
-for g in range(Changer):
+g=AChanger
+while g!=Changer:
     syracuse(g)
+    g+=1
