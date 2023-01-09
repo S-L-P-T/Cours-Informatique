@@ -14,13 +14,10 @@ def syracuse(n):
     elif n <= 0:
         print("non")
     else:
-        print("n Un")
-        print(a," ",n)
         while n != 1:
             if (n % 2) == 0:
                 n = n//2
                 a = a+1
-                print(a," ",n)
                 if altimax < n:
                     altimax = n
                 if altimin > n:
@@ -41,7 +38,6 @@ def syracuse(n):
             else:
                 n = (n*3)+1
                 a = a+1
-                print(a," ",n)
                 if altimax < n:
                     altimax = n
                 if altimin > n:
@@ -59,17 +55,14 @@ def syracuse(n):
                         nbduree = nbduree + 1
                     d = 0
 
-        altimoy = altimoy//a
-        dureealtitudemoy = dureealtitudemoy//nbduree
+            altimoy = altimoy//a
+        if nbduree != 0:
+            dureealtitudemoy = dureealtitudemoy//nbduree
+        else:
+            dureealtitudemoy = 0
 
-        print("Durée de vol maximale = ",a)
-        print("Durée de vol minimale = ",a)
-        print("Durée de vol moyen = ",a//a)
-        print("Altitude maximale = ",altimax)
-        print("Altitude minimale = ",altimin)
-        print("Altitude moyenne = ",altimoy)
-        print("Durée de vol maximale en altitude = ",dureealtitudemax)
-        print("Durée de vol minimale en altitude = ",dureealtitudemin)
-        print("Durée de vol moyen en altitude = ",dureealtitudemoy)
+        print(g," ",dureealtitudemax)
 
-syracuse(Changer)
+
+for g in range(Changer):
+    syracuse(g)
